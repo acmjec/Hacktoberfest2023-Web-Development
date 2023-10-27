@@ -2,6 +2,7 @@ import React from 'react'
 import MainLanding from './MainLanding/MainLanding'
 import Join_us from './why_join_us/Join_us'
 import MeetOurTeam from './MeetOurTeam/MeetOurTeam'
+import Explore from './ExploreByCategory/Explore'
 import Footer from './Footer/Footer'
 import Success from './success_stories/Success'
 
@@ -12,6 +13,7 @@ function LandingPage() {
       <Join_us />
       <Success/>
       <MeetOurTeam />
+      <Explore/>
       <Footer/>
     </div>
   )

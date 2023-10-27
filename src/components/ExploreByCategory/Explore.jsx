@@ -1,28 +1,26 @@
 import React from 'react'
 import ExploreCard from './ExploreCard'
-
 export default function Explore() {
-    const exploreCardData = [
-        {
-            img1_src: '/images/code blue.jpg',
-            img2_src: '/images/code-black bg.jpg',
-            img3_src: '/images/laptop.jpg',
-            tagline: 'Hackathon'
-        },
-        {
-            img1_src: '/images/core to advance.jpg',
-            img2_src: '/images/bits.jpg',
-            img3_src: '/images/interactive session.jpg',
-            tagline: 'Seminars'
-
-        },
-        {
-            img1_src: '/images/basics to brilliance.jpg',
-            img2_src: '/images/java session.jpg',
-            img3_src: '/images/coder.jpg',
-            tagline: 'Tech Talks'
-        }
-    ]
+    const exploreCardData = [ {
+        img1_src: '/images/code blue.jpg',
+        img2_src: '/images/code-black bg.jpg',
+        img3_src: '/images/laptop.jpg',
+        tagline: 'Hackathon'
+    },
+    {
+        img1_src: '/images/core to advance.jpg',
+        img2_src: '/images/bits.jpg',
+        img3_src: '/images/interactive session.jpg',
+        tagline: 'Seminars'
+    
+    },
+    {
+        img1_src: '/images/basics to brilliance.jpg',
+        img2_src: '/images/java session.jpg',
+        img3_src: '/images/coder.jpg',
+        tagline: 'Tech Talks'
+    }
+    ];
   return (
     <>
     <div className="container mb-36 mx-auto text-center">
