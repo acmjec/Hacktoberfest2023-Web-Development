@@ -2,6 +2,7 @@ import React from 'react'
 import MainLanding from './MainLanding/MainLanding'
 import Join_us from './why_join_us/Join_us'
 import MeetOurTeam from './MeetOurTeam/MeetOurTeam'
+import Explore from './ExploreByCategory/Explore'
 import Footer from './Footer/Footer'
 
 function LandingPage() {
@@ -10,6 +11,7 @@ function LandingPage() {
       <MainLanding />
       <Join_us />
       <MeetOurTeam />
+      <Explore/>
       <Footer/>
     </div>
   )
