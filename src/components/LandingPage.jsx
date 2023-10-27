@@ -10,7 +10,6 @@ function LandingPage() {
       <MainLanding />
       <Join_us />
       <MeetOurTeam />
-      {/* <Join_us /> */}
       <Footer/>
     </div>
   )
