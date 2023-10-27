@@ -12,7 +12,6 @@ function LandingPage() {
       <Join_us />
       <Success/>
       <MeetOurTeam />
-      {/* <Join_us /> */}
       <Footer/>
     </div>
   )
