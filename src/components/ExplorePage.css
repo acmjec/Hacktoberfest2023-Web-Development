@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.explore-section{
+    width: 150vw;
+    height: 300vh;
+    background-color: black;
+    overflow-y: hidden;
+}

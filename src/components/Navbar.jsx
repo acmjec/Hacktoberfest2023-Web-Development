@@ -22,6 +22,7 @@ function Navbar() {
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Members</a>
+            <a href="#">Explore</a>
             <a href="#">Editorial Board</a>
             <a href="#">Resources</a>
           </div>
