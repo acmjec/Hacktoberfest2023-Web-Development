@@ -1,6 +1,7 @@
 import React, { Fragment, useRef } from "react";
 import styles from "./Navbar.module.css";
 import logo from "../../public/images/mainLogo.png";
+import { AiOutlineSearch } from "react-icons/ai";
 
 function Navbar() {
   const mobile_view = useRef();
@@ -29,7 +30,7 @@ function Navbar() {
             Join Us
           </a>
           <div className={styles.search_space}>
-            <i className="fa-solid fa-magnifying-glass"></i>
+            <AiOutlineSearch size="25" color="black" />
             <input
               type="search"
               placeholder="Search...."
@@ -51,7 +52,7 @@ function Navbar() {
           Join Us
         </a>
         <div className={styles.search_space_a}>
-          <i className="fa-solid fa-magnifying-glass"></i>
+        <AiOutlineSearch size="25" color="black" />
           <input
             type="search"
             placeholder="Search...."

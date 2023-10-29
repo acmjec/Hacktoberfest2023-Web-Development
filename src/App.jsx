@@ -25,8 +25,8 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<LandingPage className="z-[-5]" />} />
-            <Route path="/signup" element={<Signup />} />
             <Route path="/events" element={<Event />} />
+            <Route path="/signup" element={<Signup />} />
           </Routes>
         </Router>
       )}
