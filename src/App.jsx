@@ -6,6 +6,7 @@ import JoinUs from "./components/why_join_us/Join_us";
 import Signup from "./components/SignupPage/Signup";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Event from "./components/Events/Events";
+import UpcomingEvents from "./components/UpcomingEvents/UpcomingEvents";
 
 function App() {
   const [isLoading, setloading] = useState(true);
@@ -27,6 +28,8 @@ function App() {
             <Route exact path="/" element={<LandingPage className="z-[-5]" />} />
             <Route path="/events" element={<Event />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/events" element={<Event />} />
+            <Route path="/upcomingEvents" element={<UpcomingEvents />} />
           </Routes>
         </Router>
       )}
