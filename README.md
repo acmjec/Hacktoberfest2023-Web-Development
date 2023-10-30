@@ -29,11 +29,11 @@ Please visit the official website of [Hacktoberfest](https://www.hacktoberfest.c
  * Fork this repository (find the button at the top).
  * Clone the repository on your local machine. <br>
  
-       git clone https://github.com/[Your username]/acmjec-website-hacktoberfest2023.git
+       git clone https://github.com/[Your Username]/Hacktoberfest2023-Web-Development.git
    
  * On your local machine, navigate to the project directory. <br>
 
-       cd acmjec-website-hacktoberfest2023 
+       cd Hacktoberfest2023-Web-Development
    
  * Open the terminal and install all the dependencies.<br>
  
