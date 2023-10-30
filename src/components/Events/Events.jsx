@@ -3,8 +3,11 @@ import './Events.css'
 import firstEvent from '../../../public/images/interactive session.jpg'
 import secondEvent from '../../../public/images/java session.jpg'
 import grid2 from '../../../public/images/grid2.jpg'
+import { useNavigate } from 'react-router-dom'
 
 const Event = () => {
+
+  const navigate = useNavigate();
 
   const upcomingEvents = [
     {
@@ -38,6 +41,10 @@ const Event = () => {
       RSPV: false
     },
   ]
+
+  const seeMoreHandler = () => {
+    navigate("/upcomingEvents")
+  }
 
   return (
     <div className='evnt_cont'>
@@ -94,7 +101,7 @@ const Event = () => {
             }
         </div>
         <div className="ue_btn">
-          <button>See More</button>
+          <button onClick={() => seeMoreHandler()} >See More</button>
         </div>
       </div>
     </div>
